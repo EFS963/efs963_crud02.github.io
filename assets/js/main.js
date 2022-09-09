@@ -40,7 +40,7 @@ function mostrarNotas() {
             tdAcciones.appendChild(btnEliminar);
 
             const btnEditar = document.createElement("button");
-            btnEditar.classList.add("btn", "btn-gray", "ml-2");
+            btnEditar.classList.add("btn", "btn-primary", "ml-2");
             btnEditar.innerText = "Editar";
             btnEditar.onclick = () => editar(nota);
             tdAcciones.appendChild(btnEditar);
